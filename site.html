@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./styling.css" />
+  </head>
+
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar w3-black w3-wide w3-padding w3-card">
+        <a href="./site.html" class="w3-bar-item w3-button"
+          ><b>Angel Lorenzo</b></a
+        >
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+          <a href="./projects.html" class="w3-bar-item w3-button" target="_self"
+            >Projects</a
+          >
+
+          <!-- Dropdown for About -->
+          <div
+            class="w3-dropdown-hover"
+            style="position: relative; display: inline-block"
+          >
+            <a href="#about" class="w3-bar-item w3-button">About &#9662;</a>
+            <div
+              class="w3-dropdown-content w3-bar-block w3-card-4"
+              style="
+                position: absolute;
+                top: 100%;
+                left: 0;
+                min-width: 160px;
+                z-index: 1000;
+              "
+            >
+              <a href="#about" class="w3-bar-item w3-button">About Me</a>
+              <a href="#general-interests" class="w3-bar-item w3-button"
+                >General Interests</a
+              >
+              <a href="./resume.html" class="w3-bar-item w3-button">Resume</a>
+            </div>
+          </div>
+
+          <a href="./contact.html" class="w3-bar-item w3-button">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div
+      class="bgimg-1 w3-display-container w3-opacity-min"
+      id="home"
+      style="margin-top: 46px"
+    >
+      <div class="w3-display-middle" style="white-space: nowrap">
+        <span
+          class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"
+          >ANGEL LORENZO</span
+        >
+      </div>
+    </div>
+    <br /><br />
+    <div class="w3-content w3-container" id="about" class="about">
+      <h2 class="w3-center" style="color: black" class="about" id="about">
+        ABOUT ME
+      </h2>
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width: 1100px">
+      <div class="w3-container w3-margin-top">
+        <h4>
+          I've always been a curious person. Work-wise, I'm a full-stack
+          engineer who specializes in Test Engiener and Software Quality
+          Assurance. Feel free to checkout the Projects section in this website
+          if you want to checkout my projects or play a game!
+        </h4>
+        <h4>
+          Outside of work, you can find me interacting with people- strangers
+          and friends alike, nature, and animals, picking up new hobbies and
+          making new friends.
+        </h4>
+      </div>
+    </div>
+
+    <div>
+      <h2 class="w3-center" class="general-interests" id="general-interests">
+        General Interests
+      </h2>
+
+      <!-- Page content -->
+      <div class="w3-content" style="max-width: 1100px">
+        <!-- Good offers -->
+        <div class="w3-container w3-margin-top">
+          <h4>
+            On top of enjoying learning languages and learning how to code, I'm
+            a huge fan of doing sports. I've done several ones, including but
+            not limited to: skydiving, highlining, paragliding, and
+            snowboarding.
+          </h4>
+        </div>
+        <div class="w3-row-padding w3-text-white w3-large">
+          <div class="w3-half w3-margin-bottom">
+            <div class="w3-display-container">
+              <img
+                src="./photos/SFHighline.jpg"
+                alt="Cinque Terre"
+                style="width: 100%"
+              />
+              <span class="w3-display-bottomleft w3-padding"
+                >San Francisco</span
+              >
+            </div>
+          </div>
+
+          <div class="w3-half">
+            <div class="w3-row-padding" style="margin: 0 -16px">
+              <div class="w3-half w3-margin-bottom">
+                <div class="w3-display-container">
+                  <img
+                    src="./photos/TopPG.jpg"
+                    alt="New York"
+                    style="width: 100%"
+                  />
+                  <span class="w3-display-bottomleft w3-padding">NorCal</span>
+                </div>
+              </div>
+              <div class="w3-half w3-margin-bottom">
+                <div class="w3-display-container">
+                  <img
+                    src="./photos/SantaPG.jpg"
+                    alt="San Francisco"
+                    style="width: 100%"
+                  />
+                  <span class="w3-display-bottomleft w3-padding">Bay Area</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-row-padding" style="margin: 0 -16px">
+              <div class="w3-half w3-margin-bottom">
+                <div class="w3-display-container">
+                  <img
+                    src="./photos/HawaiiSkydive.jpg"
+                    alt="Hawaii"
+                    style="width: 100%"
+                  />
+                  <span class="w3-display-bottomleft w3-padding">Hawaii</span>
+                </div>
+              </div>
+              <div class="w3-half w3-margin-bottom">
+                <div class="w3-display-container">
+                  <img
+                    src="./photos/ZurichHighline.jpg"
+                    alt="Zurich"
+                    style="width: 100%"
+                  />
+                  <span class="w3-display-bottomleft w3-padding">Zurich</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./styling.css" />
+  </head>
+
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar w3-black w3-wide w3-padding w3-card">
+        <a href="./site.html" class="w3-bar-item w3-button"
+          ><b>Angel Lorenzo</b></a
+        >
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+          <a href="./projects.html" class="w3-bar-item w3-button" target="_self"
+            >Projects</a
+          >
+
+          <!-- Dropdown for About -->
+          <div
+            class="w3-dropdown-hover"
+            style="position: relative; display: inline-block"
+          >
+            <a href="./site.html" class="w3-bar-item w3-button"
+              >About &#9662;</a
+            >
+            <div
+              class="w3-dropdown-content w3-bar-block w3-card-4"
+              style="
+                position: absolute;
+                top: 100%;
+                left: 0;
+                min-width: 160px;
+                z-index: 1000;
+              "
+            >
+              <a href="./site.html#about" class="w3-bar-item w3-button"
+                >About Me</a
+              >
+              <a
+                href="./site.html#general-interests"
+                class="w3-bar-item w3-button"
+                >General Interests</a
+              >
+              <a href="./resume.html" class="w3-bar-item w3-button">Resume</a>
+            </div>
+          </div>
+
+          <a href="./contact.html" class="w3-bar-item w3-button" target="_self"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div
+      class="bgimg-1 w3-display-container w3-opacity-min"
+      id="home"
+      style="margin-top: 46px"
+    >
+      <div class="w3-display-middle" style="white-space: nowrap">
+        <span
+          class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"
+          >Contact Me!</span
+        >
+      </div>
+    </div>
+
+    <div class="w3-content" style="max-width: 1100px">
+      <!-- Container (Contact Section) -->
+      <div class="w3-content w3-container w3-padding-64" id="contact">
+        <h3 class="w3-center">WHERE I WORK</h3>
+        <div class="w3-row w3-padding-32 w3-section">
+          <div class="w3-col m4 w3-container">
+            <img
+              src="./photos/gg-bridge.jpg"
+              class="w3-image w3-round"
+              style="width: 100%"
+            />
+          </div>
+          <div class="w3-col m8 w3-panel">
+            <div class="w3-large w3-margin-bottom">
+              <i
+                class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"
+              ></i>
+              San Francisco, US<br />
+              <i
+                class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"
+              ></i>
+              Phone: +1 123 456 7890<br />
+              <i
+                class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"
+              ></i>
+              Email: mail@mail.com<br />
+
+              <i
+                class="fa fa-address-card fa-fw w3-hover-text-black w3-xlarge w3-margin-right"
+              ></i> <a href="https://linkedin.com/in/lorenzoangel/" title="linkedin">LinkedIn:</a>
+              linkedin.com/in/lorenzoangel/<br />
+            </div>
+            <h4>Reach out if you have any questions!</h4>
+            <form action="/action_page.php" target="_blank">
+              <div class="w3-row-padding" style="margin: 0 -16px 8px -16px">
+                <div class="w3-half">
+                  <input
+                    class="w3-input w3-border"
+                    type="text"
+                    placeholder="Name"
+                    required
+                    name="Name"
+                  />
+                </div>
+                <div class="w3-half">
+                  <input
+                    class="w3-input w3-border"
+                    type="text"
+                    placeholder="Email"
+                    required
+                    name="Email"
+                  />
+                </div>
+              </div>
+              <input
+                class="w3-input w3-border"
+                type="text"
+                placeholder="Message"
+                required
+                name="Message"
+              />
+              <button
+                class="w3-button w3-black w3-right w3-section"
+                type="submit"
+              >
+                <i class="fa fa-paper-plane"></i> SEND MESSAGE
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
