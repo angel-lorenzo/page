@@ -60,3 +60,11 @@ body{
 a:hover[href*="lorenzoangel"]{
   color:limegreen; 
 }
+
+@media screen and (max-width: 600px) {
+  .w3-xlarge {
+    font-size: 1.5em !important;  /* Smaller on mobile */
+    letter-spacing: 2px !important;  /* Less wide */
+    padding: 10px 20px !important;   /* Better fit */
+  }
+}
