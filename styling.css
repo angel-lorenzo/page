@@ -65,6 +65,10 @@ a:hover[href*="lorenzoangel"]{
   text-decoration: none; 
 }
 
+#github:hover{
+  text-decoration: none; 
+}
+
 @media screen and (max-width: 600px) {
   .w3-xlarge {
     font-size: 1.5em !important;  /* Smaller on mobile */
@@ -72,4 +76,5 @@ a:hover[href*="lorenzoangel"]{
     padding: 10px 20px !important;   /* Better fit */
   }
 }
+
 
